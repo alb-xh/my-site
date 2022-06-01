@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.13](https://github.com/alb-xh/my-site/compare/v1.2.12...v1.2.13) (2022-06-01)
+
+
+### Bug Fixes
+
+* update ([beca0b1](https://github.com/alb-xh/my-site/commit/beca0b1dccc0c8ec8e82e957f83b5b69080c5dd2))
+
 ### [1.2.12](https://github.com/alb-xh/my-site/compare/v1.2.11...v1.2.12) (2022-06-01)
 
 
