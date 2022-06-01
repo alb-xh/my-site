@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.2](https://github.com/alb-xh/my-site/compare/v1.2.1...v1.2.2) (2022-06-01)
+
+
+### Bug Fixes
+
+* update release please workflow ([9ce3ae3](https://github.com/alb-xh/my-site/commit/9ce3ae3344d26263bb63c417ec704adc45df7c7b))
+
 ### [1.2.1](https://github.com/alb-xh/my-site/compare/v1.2.0...v1.2.1) (2022-06-01)
 
 
