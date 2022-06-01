@@ -13,13 +13,9 @@ jobs:
         with:
           release-type: node
           package-name: test-release-please
-      - id: checkout
-        name: checkout
-        if: ${{ steps.release.outputs.release_created }}
-        uses: actions/checkout@v2
       - id: automerge
         name: automerge
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         uses: "pascalgn/automerge-action@v0.15.3"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
