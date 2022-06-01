@@ -13,6 +13,8 @@ jobs:
         with:
           release-type: node
           package-name: test-release-please
+      - name: show
+        run: echo "${{ steps.release.outputs.pr }}"
       - id: merge
         name: merge
         if: ${{ steps.release.outputs.pr }}
