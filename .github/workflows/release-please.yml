@@ -20,4 +20,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PULL_REQUEST: ${{ fromJson(steps.release.outputs.pr).number }}
-          UPDATE_LABELS: "autorelease: pending"
+          MERGE_LABELS: ""
+          UPDATE_LABELS: ""
