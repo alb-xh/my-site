@@ -9,14 +9,15 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
+        name: release
         with:
           release-type: node
           package-name: test-release-please
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
-      - id: automerge
-        name: automerge
-        uses: "pascalgn/automerge-action@v0.15.3"
+      - uses: "pascalgn/automerge-action@v0.15.3"
+        id: automerge
+        name: merge
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          PULL_REQUEST: "${{ steps.release.outputs.pr }}"
+          PULL_REQUEST: ${{ steps.release.outputs.pr }}
