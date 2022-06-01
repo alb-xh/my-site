@@ -19,5 +19,5 @@ jobs:
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: 28
+          number: ${{ steps.release.outputs.pr }}
           method: squash
