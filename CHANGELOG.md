@@ -1,0 +1,18 @@
+# Changelog
+
+## 1.0.0 (2022-06-01)
+
+
+### Features
+
+* added .nvmrc ([6b8a270](https://github.com/alb-xh/my-site/commit/6b8a270b529ec28d0b45e2b0c543a4e181f3923d))
+* added eslint ([465095c](https://github.com/alb-xh/my-site/commit/465095c6496bf4e2063c602f985eb892054dcaac))
+* added husky and hooks ([fa81a66](https://github.com/alb-xh/my-site/commit/fa81a6609e8f91bb1f942cdc136a4029bca0377f))
+* added tailwind to project ([#4](https://github.com/alb-xh/my-site/issues/4)) ([5e75f4e](https://github.com/alb-xh/my-site/commit/5e75f4ea26795ae746101e79fb66ecd6fb1ef3d8))
+* automated releases ([#5](https://github.com/alb-xh/my-site/issues/5)) ([d890249](https://github.com/alb-xh/my-site/commit/d8902490bd96d0dd76639be511dd22ee59189c5c))
+* created ci pipeline ([#3](https://github.com/alb-xh/my-site/issues/3)) ([b9e9178](https://github.com/alb-xh/my-site/commit/b9e9178b76548b1dbfcb3b3c4ff67805fbefb140))
+
+
+### Bug Fixes
+
+* update release-please workflow ([#6](https://github.com/alb-xh/my-site/issues/6)) ([401fa9a](https://github.com/alb-xh/my-site/commit/401fa9a1de4c583216ef4214e668b5ff426cacc1))
