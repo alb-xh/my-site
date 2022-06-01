@@ -16,8 +16,10 @@ jobs:
       - id: merge
         name: merge
         if: ${{ steps.release.outputs.pr }}
-        uses: juliangruber/merge-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{fromJson(steps.release.outputs.pr).number}}
-          method: squash
+        uses: "pascalgn/automerge-action@v0.15.3"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST: ${{ fromJson(steps.release.outputs.pr).number }}
+          MERGE_LABELS: ""
+          UPDATE_LABELS: ""
+          LOG: "TRACE"
