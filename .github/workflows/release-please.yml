@@ -13,14 +13,12 @@ jobs:
         with:
           release-type: node
           package-name: test-release-please
-      - id: automerge
-        name: automerge
+      - id: merge
+        name: merge
         if: ${{ steps.release.outputs.pr }}
-        uses: "pascalgn/automerge-action@v0.15.3"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          PULL_REQUEST: ${{ steps.release.outputs.pr.number }}
-          MERGE_LABELS: ""
-          UPDATE_LABELS: ""
-          LOG: "TRACE"
+        uses: juliangruber/merge-pull-request-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ steps.release.outputs.pr.number }}
+          method: squash
 
