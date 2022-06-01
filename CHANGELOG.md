@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/alb-xh/my-site/compare/v1.0.0...v1.1.0) (2022-06-01)
+
+
+### Features
+
+* create workflow for auto merging release prs ([#8](https://github.com/alb-xh/my-site/issues/8)) ([bac1f60](https://github.com/alb-xh/my-site/commit/bac1f60b04ea0a45661446bb1a92f765fcfc3ff3))
+
 ## 1.0.0 (2022-06-01)
 
 
