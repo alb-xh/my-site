@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/alb-xh/my-site/compare/v1.1.0...v1.1.1) (2022-06-01)
+
+
+### Bug Fixes
+
+* updated wrong event on merge-realese-pr workflow ([#10](https://github.com/alb-xh/my-site/issues/10)) ([af69ae7](https://github.com/alb-xh/my-site/commit/af69ae7011ee68fa946c35b7d548899cfee102b7))
+
 ## [1.1.0](https://github.com/alb-xh/my-site/compare/v1.0.0...v1.1.0) (2022-06-01)
 
 
