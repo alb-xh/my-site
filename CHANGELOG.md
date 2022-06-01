@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/alb-xh/my-site/compare/v1.1.0...v1.2.0) (2022-06-01)
+
+
+### Features
+
+* merge auto-release, auto-merge-release workflows ([#12](https://github.com/alb-xh/my-site/issues/12)) ([77b3c0e](https://github.com/alb-xh/my-site/commit/77b3c0ece73187c8b54d589a43683d47e9fd3ef6))
+
+
+### Bug Fixes
+
+* update release please workflow ([#14](https://github.com/alb-xh/my-site/issues/14)) ([4fbb0d8](https://github.com/alb-xh/my-site/commit/4fbb0d82118ee67578dd64b9cefad1efd779ddfa))
+* update release workflow ([#15](https://github.com/alb-xh/my-site/issues/15)) ([a8c2ea0](https://github.com/alb-xh/my-site/commit/a8c2ea00b2ae7b4c2c5a960a31fdafac62c1507e))
+* updated hello world message ([#16](https://github.com/alb-xh/my-site/issues/16)) ([188f660](https://github.com/alb-xh/my-site/commit/188f66071c50a8894f1b61bd3822e1d796f0c694))
+* updated wrong event on merge-realese-pr workflow ([#10](https://github.com/alb-xh/my-site/issues/10)) ([af69ae7](https://github.com/alb-xh/my-site/commit/af69ae7011ee68fa946c35b7d548899cfee102b7))
+
 ### [1.1.1](https://github.com/alb-xh/my-site/compare/v1.1.0...v1.1.1) (2022-06-01)
 
 
