@@ -7,17 +7,21 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
-        id: release
+      - id: release
+        name: release
+        uses: google-github-actions/release-please-action@v3
         name: release
         with:
           release-type: node
           package-name: test-release-please
-      - uses: actions/checkout@v2
+      - id: checkout
+        name: checkout
         if: ${{ steps.release.outputs.release_created }}
-      - uses: "pascalgn/automerge-action@v0.15.3"
-        id: automerge
-        name: merge
+        uses: actions/checkout@v2
+      - id: automerge
+        name: automerge
+        if: ${{ steps.release.outputs.release_created }}
+        uses: "pascalgn/automerge-action@v0.15.3"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           PULL_REQUEST: ${{ steps.release.outputs.pr }}
