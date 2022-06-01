@@ -21,4 +21,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ steps.release.outputs.pr.number }}
           method: squash
-
